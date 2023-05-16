@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/dfd0159f70.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Chat Screen Kokoa Talk</title>
+</head>
+<body id="chat-screen">
+    <!-- Staus Bar -->
+    <section class="staus-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fa-solid fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>100%</span>
+            <i class="fa-solid fa-battery-full fa-lg"></i>
+            <i class="fa-solid fa-bolt"></i>
+        </div>
+    </section>
+
+    <!-- Header -->
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="chats.html"><i class="fa-solid fa-angle-left fa-xl"></i></a>
+        </div>
+        <div class="alt-header__column">
+            <span>CBUM</span>
+        </div>
+        <div class="alt-header__column">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+
+    <!-- Main screen -->
+    <main class="main-screen main-chat">
+        <div class="chat__timestamp">
+             Tuesday, June 30, 2020
+        </div>
+        <div class="message-row">
+            <img src="https://e1.pxfuel.com/desktop-wallpaper/529/58/desktop-wallpaper-chris-bumstead-c-bum.jpg" alt="">
+            <div class="message-row__content">
+                <span class="message-row__author">CBUM</span>
+                <div class="message-row__info">
+                    <span class="message__bubble">Hi!</span>
+                    <span class="message__time">21:27</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row message-row__own">
+            <div class="message-row__content">
+                <div class="message-row__info">
+                    <span class="message__bubble">Hi! Nice to meet you!</span>
+                    <span class="message__time">21:27</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <form class="reply">
+        <div class="reply__column">
+            <i class="fa-regular fa-square-plus fa-xl"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="write a message...">
+            <i class="fa-regular fa-face-smile fa-xl"></i>
+            <button>
+                <i class="fa-solid fa-arrow-up fa-lg"></i>
+            </button>
+        </div>
+    </form>
+    <div id="no-Mobile">
+        <span>Your screen is too big</span>
+    </div>
+</body>
+</html> 

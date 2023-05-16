@@ -1,0 +1,119 @@
+
+.fa-gear .badge_menu {
+    position: absolute ;
+    right: 15px;
+    top: 40px;
+}
+
+
+.recommended-friends {
+    border-bottom: var(--main-border);
+    color: var(--lighter-color);
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 225px;
+    position: relative;
+}
+
+.open-chat__header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    opacity: 0.8;
+    padding-top: 15px
+}
+
+.recommended-title {
+    font-size: 14px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.open-chat_home {
+    opacity: 0.6;
+}
+
+.open-chat__post {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: var(--main-border);
+}
+
+.open-chat__column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.open-post__title {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.open-post__tag {
+    font-size: 15px;
+    color: var(--lighter-color);
+    margin-bottom: 5px;
+}
+
+.open-post__status {
+    display: flex;
+    align-items: center;
+    color: var(--lighter-color);
+}
+
+.open-post__status__img {
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+
+.open-post__members {
+    font-size: 13px;
+}
+
+.open-post__status .divider {
+    width: 1px; 
+    height: 15px;
+    background-color: rgba(0, 0, 0, 0.2 );
+    margin: 0 6px;
+}
+
+.open-post__active{
+    font-size: 15px;
+    color: rgba(250, 0, 210, 0.7);
+}
+
+.open-post__main-img {
+    height: 90px;
+    width: 90px;
+    border-radius: 8px;
+}
+
+.open-post__like {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 60px;
+    height: 20px;
+    border-radius: 10px;
+    color: white;
+    font-size: 13px;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+.open-post__like i {
+    margin-right: 3px;
+    font-size: 12px;
+}

@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import "reset.css";
+@import "variables.css";
+
+/* Components */
+@import "/kokoa-clone-2023/CSS/components/status-bar.css";
+@import "/kokoa-clone-2023/CSS/components/navbar.css";
+@import "/kokoa-clone-2023/CSS/components/screen-header.css";
+@import "/kokoa-clone-2023/CSS/components/user-component.css";
+@import "/kokoa-clone-2023/CSS/components/badge.css";
+@import "/kokoa-clone-2023/CSS/components/iconrow.css";
+@import "/kokoa-clone-2023/CSS/components/alt-header.css";
+@import "/kokoa-clone-2023/CSS/components/no-mobile.css";
+/* Screens */
+@import "/kokoa-clone-2023/CSS/screens/login-form.css";
+@import "/kokoa-clone-2023/CSS/screens/welcome-header.css";
+@import "/kokoa-clone-2023/CSS/screens/friends.css";
+@import "/kokoa-clone-2023/CSS/screens/find.css";
+@import "/kokoa-clone-2023/CSS/screens/menu.css";
+@import "/kokoa-clone-2023/CSS/screens/settings.css";
+@import "/kokoa-clone-2023/CSS/screens/chat.css";
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #2e363e;
+}
+
+.main-screen {
+    padding: 0 var(--horizontal-space);
+}
+
+a {
+    text-decoration: none;
+}

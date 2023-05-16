@@ -1,0 +1,29 @@
+.screen-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px 20px 20px 20px;
+    margin-bottom: 10px;
+}   
+
+.header__title {
+    font-size: 25px;
+    font-weight: 1000;
+}
+
+.header__icons {
+    font-size: 20px;
+}
+
+.header__icons .fa-comment-dots {
+    font-size: 23px;
+    margin-left: 18px;
+}
+
+.header__icons .fa-music {
+    margin-left: 18px;
+}
+
+.header__icons .fa-gear {
+    margin-left: 18px;
+}
